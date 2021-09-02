@@ -1,0 +1,467 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    font-family: 'Source Code Pro' !important; 
+}
+
+header, section, footer {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 80px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(backgroundgif1.gif);
+    background-size: cover;
+    background-position-y: top;
+}
+
+#seccion1 {
+    height: 315px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(backgroundgif1.gif);
+    background-size: cover;
+    background-position-y: bottom;
+    margin-top: 10px;
+}
+
+#seccion2 {
+    height: 300px;
+    background-image: url(background1.png);
+    background-size: cover;
+    background-position-y: bottom;
+    margin-top: 10px;
+}
+
+#seccion3 {
+    height: 300px;
+    background-image: url(background1.png);
+    background-size: cover;
+    background-position-y: bottom;
+    margin-top: 10px;
+}
+
+#seccion4 {
+    height: auto;
+    margin-top: 10px;
+}
+
+#img1 {
+    display: flex;
+    align-items: center;
+    background-color: #ccccff;
+    height: 300px;
+}
+
+#img1margin {
+    height: 280px;
+    width: 280px;
+    margin: auto;
+}
+
+#img1margin h4 {
+    text-shadow: -2px 2px 0 yellow;
+}
+
+#img1margin p {
+    text-shadow: -2px 2px 0 yellow;
+}
+
+#img2 {
+    display: flex;
+    align-items: center;
+    background-color: #cc99ff;
+    height: 300px;
+}
+
+#img2margin {    
+    display: flex;
+    align-items: center;
+    height: 280px;
+    width: 280px;
+    margin: auto;
+}
+
+#img3 {
+    display: flex;
+    align-items: center;
+    background-color: #cc66ff;
+    height: 300px;
+}
+
+#img3margin {
+    height: auto;
+    width: 280px;
+    margin: auto;
+}
+
+#img3margin h4 {    
+    text-shadow: -2px 2px 0 yellow;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#img3margin p {
+    text-align: center;
+    margin-top: 0px;
+}
+
+footer {
+    height: 80px;
+    background-image: url(backgroundgif2.gif);
+    background-size: cover;
+    background-position-y: top;
+    margin-top: 10px;
+}
+
+#icono {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    float: left;
+    margin: 20px;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 15px !important;
+    color: white !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    text-align: center !important;
+}
+
+nav {
+    width: 190px;
+    height: 40px;
+    border-radius: 15px;
+    float: right;
+    margin: 20px;
+    margin-right: 20px;
+}
+
+#botonera {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#botonera li {
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+
+#botonera li a{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+
+#botonera li a img{
+    width: 100%;
+}
+
+#txtinicial {
+    width: 500px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 40px;
+    float: left;
+    margin-left: 210px;
+    padding: 15px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#txtinicial h2 {
+    font-size: 15px !important;
+    color: white !important;
+    text-align: right !important;
+    margin: 0px !important;
+    
+}
+
+#txtinicial p {
+    font-size: 13px !important;
+    color: white !important;
+    text-align: justify !important;
+    margin: 0px !important;
+    margin-top: 10px !important;
+}
+
+#tarjeta1 {
+    width: 190px;
+    height: 260px;
+    background-color: rgba(0, 0, 0, 0.4);;
+    margin: 20px;
+    float: left;
+    border-radius: 10px
+}
+
+#tarjeta1 img {
+    display: block;
+    height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#descripcion1 {
+    width: 500px;
+    height: 150px;;
+    float: left;
+    margin-top: 20px;
+    border-radius: 10px
+}
+
+#txt1 {
+    display: none;
+    font-size: 13px !important;
+    color: white !important;
+    text-align: justify !important;
+    margin: 10px !important;
+}
+
+#tarjeta2 {
+    width: 190px;
+    height: 260px;
+    background-color: rgba(0, 0, 0, 0.4);;
+    margin: 20px;
+    float: right;
+    border-radius: 10px
+}
+
+#tarjeta2 img {
+    display: block;
+    height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#descripcion2 {
+    width: 500px;
+    height: 150px;;
+    float: right;
+    margin-top: 130px;
+    border-radius: 10px
+}
+
+#txt2 {
+    display: none;
+    font-size: 13px !important;
+    color: white !important;
+    text-align: justify !important;
+    margin: 10px !important;
+}
+
+#redes {
+    width: 100px;
+    height: 40px;;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+    margin-left: 20px;
+}
+
+#redes ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#redes ul li {
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+
+#redes ul li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+
+#redes ul li a img{
+    width: 100%;
+}
+
+
+#firma {
+    width: 80px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    float: right;
+    margin: 20px;
+    margin-right: 20px;
+}
+
+#firma h2 {
+    font-size: 30px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+}
+
+@media all and (min-width: 600px) and (max-width: 992px){
+    
+    header, section, footer {
+        width: 580px;
+    }
+    
+    #seccion1 {
+        height: 155px;
+    }
+    
+    #seccion2 {
+        height: 300px;
+    }
+    
+    #seccion3 {
+        height: 300px;
+    }
+    
+    #txtinicial {
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.3);
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+
+    #descripcion1 {
+        width: 330px;
+        height: 260px;
+    }
+
+    #descripcion2 {
+        width: 330px;
+        height: 260px;
+        margin-top: 20px;
+    }
+
+}
+
+@media all and (max-width: 599px){
+
+    header, section, footer {
+        width: 98%;
+    }
+
+    header {
+        background-size:auto;
+    }
+
+    #seccion1 {
+        margin-top: 10px;
+        height: 455px;
+        background-size: auto;
+        position: relative;
+    }
+    
+    #seccion2 {
+        height: 470px;
+    }
+    
+    #seccion3 {
+        height: 470px;
+    }
+        
+    footer {
+        height: 80px;
+        background-image: url(backgroundgif2.gif);
+        background-size: cover;
+        background-position-y: top;
+        margin-top: 10px;
+    }
+
+    
+    #icono {
+        margin-right: 0px;    
+        margin-left: 10px;
+    }
+
+    nav {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    
+
+    #txtinicial {
+        width: 100%;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+        float: none;
+        position: absolute;
+        margin-left: 0px;
+    }
+
+    #tarjeta1 {
+        width: 190px;
+        height: 260px;
+        margin: 10px;
+        float: left;
+    }
+    
+    #descripcion1 {
+        width: 100%;
+        height: 180px;
+        float: left;
+        margin: 0px;
+        margin-top: 0px;
+    }
+    
+    #tarjeta2 {
+        width: 190px;
+        height: 260px;
+        margin: 10px;
+        float: right;
+    }
+    
+    #descripcion2 {
+        width: 100%;
+        height: 180px;
+        float: right;
+        margin: 0px;
+        margin-top: 0px;
+    }
+        
+    #opcion1 {
+        float: left;
+        margin-left: 20px;
+    }
+    
+    #opcion2 {
+        float: right;
+        margin-right: 20px;
+    }
+    
+    #opcion3 {
+        float: left;
+        margin-left: 20px;
+    }
+
+    #redes {
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+    
+    #firma {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
+}
